@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://127.0.0.1/wordpress/wp-content/custom_sitemap_stylesheetindex.xsl"?>
+
+<sitemapindex
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/site.xml</loc>
+		<lastmod>2020-08-30T17:29:50Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/post.xml</loc>
+		<lastmod>2020-08-30T08:26:00Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/post_rl_gallery.xml</loc>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/post_wpm-testimonial.xml</loc>
+		<lastmod>2020-08-30T19:03:22Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/page.xml</loc>
+		<lastmod>2020-08-30T03:01:31Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/archive_monthly.xml</loc>
+		<lastmod>2020-08-30T09:02:45Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/archive_yearly.xml</loc>
+		<lastmod>2020-08-30T11:26:06Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/taxonomy_category.xml</loc>
+		<lastmod>2020-08-30T09:14:19Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/taxonomy_post_tag.xml</loc>
+		<lastmod>2020-08-30T09:14:18Z</lastmod>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/taxonomy_rl_category.xml</loc>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/taxonomy_rl_tag.xml</loc>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/taxonomy_rl_media_folder.xml</loc>
+	</sitemap>
+
+	<sitemap>
+		<loc>https://souravghoshsays.github.io/index.php/author.xml</loc>
+		<lastmod>2020-08-30T19:18:53Z</lastmod>
+	</sitemap>
+
+</sitemapindex>
+
+
+
+<!-- This sitemap was originally generated in 0.510 second(s) (Memory usage: 4.96 MB) - 2 queries - 13 URL(s) listed -->
