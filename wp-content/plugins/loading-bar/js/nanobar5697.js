@@ -1,4 +1,4 @@
-/* http://nanobar.micronube.com/  ||  https://github.com/jacoborus/nanobar/    MIT LICENSE */
+/* https://nanobar.micronube.com/  ||  https://github.com/jacoborus/nanobar/    MIT LICENSE */
 
 (function (root, factory) {
 	if (typeof exports === 'object') {
