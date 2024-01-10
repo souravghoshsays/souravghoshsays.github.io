@@ -81,6 +81,10 @@
     margin-bottom: 20px !important;
 }
 
+.sg-professional-page-container {
+    margin-top: 5%;
+}
+
 .sg-professional-page-container a {
     display: flex;
     align-items: center;
@@ -89,6 +93,7 @@
 
 .sg-professional-page-container a img {
     margin: 5px;
+    min-height: 20px;
 }
 
 .sg-hamburger {
@@ -110,10 +115,6 @@
 .sg-publication-links .uk-button-text,
 .sg-news-items li .uk-button-text {
     color: rgb(7, 145, 209) !important;
-}
-
-.sg-professional-page-container a img {
-    min-height: 20px;
 }
 
 .sg-professional-page-text {
