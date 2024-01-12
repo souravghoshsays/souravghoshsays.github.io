@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/uikit.min.css" />
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Outfit|Noto Sans|EB Garamond" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Outfit|Red Hat Display|Noto Serif Bengali|Noto Serif Devanagari|Song Myung|Noto Serif Kannada" rel="stylesheet">
 
   <!----------------- Adapted from legacy : BEGIN ----------------->
 
@@ -36,7 +36,7 @@
   <!-- SEO tags : BEGIN -->
   <meta name="description"
     content="Sourav Ghosh is a CS researcher &amp; software developer, at Samsung R&amp;D with an M.Tech degree in Computer Science from IIT Kharagpur. [Past: TCS, Microsoft.]" />
-  <link rel="canonical" href="index.html" />
+  <link rel="canonical" href="https://souravghoshsays.github.io/" />
   <script
     type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/localhost\/wordpress\/","name":"Sourav Ghosh","potentialAction":{"@type":"SearchAction","target":"http:\/\/localhost\/wordpress\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
   <script
@@ -46,7 +46,7 @@
   <!-- SEO tags : END -->
 
   <!-- Miscellaneous : BEGIN -->
-  <link rel='shortlink' href='index.html' />
+  <link rel="shortlink" href="https://souravghoshsays.github.io/" />
   <meta property="fb:app_id" content="874507132594182" />
   <meta name="theme-color" content="#ff4f00">
   <!-- Miscellaneous : END -->
@@ -307,13 +307,28 @@
       <div class="sg-section-intro-banner">
 
         <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-          <h1 class="uk-heading-xlarge">About Me</h1>
+          <h1 class="uk-heading-xlarge" uk-scrollspy="cls: uk-animation-fade; repeat: true">About Me</h1>
         </div>
       </div>
 
       <h1 class="sg-section-intro-print uk-heading-bullet">About Me</h1>
 
-      <div class="uk-container" style="font-family: 'EB Garamond', Times, serif; font-size: large;">
+      <div class="uk-container" style="font-family: 'Red Hat Display', Arial, sans-serif; font-size: large; text-align: justify; color: black;">
+
+        <p class="uk-text-lead" style="text-align: center;">
+          <span class="sg-name-i8n" style="font-family: 'Noto Serif Bengali', Arial, sans-serif;">
+            সৌরভ ঘোষ
+          </span>&nbsp;
+          <span class="sg-name-i8n" style="font-family: 'Noto Serif Devanagari', Arial, sans-serif;">
+          सौरभ घोष
+          </span>&nbsp;
+          <span class="sg-name-i8n" style="font-family: 'Song Myung', Arial, sans-serif;">
+            곳소우럽
+          </span>&nbsp;
+          <span class="sg-name-i8n" style="font-family: 'Noto Serif Kannada', Arial, sans-serif;">
+            ಸೌರಭ್ ಘೋಷ್
+          </span>
+        </p>
 
         <p class="uk-text-lead">
           Aspiring computer scientist. Loves to read and listen to audiobooks. |
@@ -467,8 +482,8 @@
         style="background-image: url('images/section-intro/News.jpg');" uk-parallax="bgy: -400; sepia: 100"
         uk-height-viewport="offset-top: true">
 
-        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical uk-animation-slide-left"
-          style="color: beige; text-shadow: 2px 2px 50px black;">
+        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 400;"
+          uk-scrollspy="cls: uk-animation-shake; repeat: true">
           News
         </h1>
       </div>
@@ -505,14 +520,15 @@
     <div id="sg-sec-container-publications" class="uk-section uk-section-default">
 
       <div class="sg-section-intro-banner">
+        <h1 class="uk-heading-xlarge uk-text-center" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+          uk-parallax="y: 400; scale: 0.5;" uk-sticky="end: 1vh">
+          Publications
+          <span class="uk-heading-medium">(15)</span>
+        </h1>
         <div class="uk-cover-container uk-transform-origin-bottom-center uk-margin-bottom"
           uk-parallax="scale: 1,.2; start: 100%; end: 40vh" uk-height-viewport>
           <img src="images/section-intro/Publications.png" width="1800" height="1200" alt="" uk-cover>
         </div>
-        <h1 class="uk-heading-xlarge uk-text-center uk-animation-slide-left">
-          Publications
-          <span class="uk-heading-medium">(15)</span>
-        </h1>
       </div>
 
       <h1 class="sg-section-intro-print uk-heading-bullet">Publications <span style="font-size: large;">(15)</span></h1>
@@ -535,7 +551,7 @@
               December 2023)
             </span><br />
             <span class="sg-publication-links">
-              <a class="uk-button uk-button-text" href="#">[Early Access - Coming Soon]</a>
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/TASLP.2024.3353574">[DOI: 10.1109/TASLP.2024.3353574]</a>
             </span><br />
           </dd>
 
@@ -569,6 +585,7 @@
               Singapore. 2023. pp. 337-346
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1007/978-981-99-3478-2_29">[DOI: 10.1007/978-981-99-3478-2_29]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2304.14924">[arXiv]</a>
             </span><br />
           </dd>
@@ -588,6 +605,7 @@
               <span uk-icon="star"></span> Best Paper Award, Track: "Consumer Technology"<br />
             </span>
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/CONECCT55679.2022.9865708">[DOI: 10.1109/CONECCT55679.2022.9865708]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2202.02524">[arXiv]</a>
             </span><br />
           </dd>
@@ -595,14 +613,19 @@
           <dt class="sg-publication-title">PrivPAS: A real time Privacy-Preserving AI System and applied ethics</dt>
           <dd>
             <span class="sg-publication-authors">
-              Harichandana B S S, Vibhav Agarwal, <u>Sourav Ghosh</u>, Gopi Ramena, Sumit Kumar, Barath Raj Kandur Raja
+              Harichandana B S S, Vibhav Agarwal, <u>Sourav Ghosh*</u>, Gopi Ramena, Sumit Kumar, Barath Raj Kandur Raja<br />
+              <span style="font-size: smaller;"> (*Presenter)</span>
             </span><br />
             <span class="sg-publication-forum">
               <span class="uk-badge uk-background-primary">&nbsp;Conference&nbsp;</span>
               IEEE 16th International Conference on Semantic Computing (ICSC), Laguna Hills, CA, USA, 2022, pp. 9-16
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/ICSC52841.2022.00010">[DOI: 10.1109/ICSC52841.2022.00010]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2202.02524">[arXiv]</a>
+              <a class="uk-button uk-button-text" target="_blank" href="https://youtu.be/EBcujUhquVc">
+                [Presentation (<span style="text-transform: none !important; font-variant: small-caps;">YouTube</span>)]
+              </a>
             </span><br />
           </dd>
 
@@ -618,6 +641,7 @@
               pp. 1112-1117
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/ICMLA52953.2021.00182">[DOI: 10.1109/ICMLA52953.2021.00182]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2110.15717">[arXiv]</a>
             </span><br />
           </dd>
@@ -638,6 +662,7 @@
               <span uk-icon="star"></span> Best Paper Award Nomination<br />
             </span>
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/ICSC50631.2021.00007">[DOI: 10.1109/ICSC50631.2021.00007]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2101.03024">[arXiv]</a>
             </span><br />
           </dd>
@@ -653,7 +678,11 @@
               IEEE 15th International Conference on Semantic Computing (ICSC), Laguna Hills, CA, USA, 2021, pp. 325-332
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/ICSC50631.2021.00061">[DOI: 10.1109/ICSC50631.2021.00061]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2101.03916">[arXiv]</a>
+              <a class="uk-button uk-button-text" target="_blank" href="https://youtu.be/dEHnPVXtbd8">
+                [Presentation (<span style="text-transform: none !important; font-variant: small-caps;">YouTube</span>)]
+              </a>
             </span><br />
           </dd>
 
@@ -672,10 +701,11 @@
               pages 19-26
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://aclanthology.org/2020.icon-workshop.3/">[ACL Anthology]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2101.03967">[arXiv]</a>
-              <a class="uk-button uk-button-text" target="_blank"
-                href="https://aclanthology.org/2020.icon-workshop.3/">[ACL
-                Anthology]</a>
+              <a class="uk-button uk-button-text" target="_blank" href="https://youtu.be/aBc1N8aLnv0?&t=6644">
+                [Presentation (<span style="text-transform: none !important; font-variant: small-caps;">YouTube</span>)]
+              </a>
             </span><br />
           </dd>
 
@@ -692,6 +722,7 @@
               Japan, 2020, pp. 444-451
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/TALE48869.2020.9368439">[DOI: 10.1109/TALE48869.2020.9368439]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2101.03916">[arXiv]</a>
             </span><br />
           </dd>
@@ -707,6 +738,7 @@
               IEEE 14th International Conference on Semantic Computing (ICSC), San Diego, CA, USA, 2020, pp. 279-286
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/ICSC.2020.00057">[DOI: 10.1109/ICSC.2020.00057]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2101.03963">[arXiv]</a>
             </span><br />
           </dd>
@@ -724,6 +756,7 @@
               IEEE 13th International Conference on Semantic Computing (ICSC), Newport Beach, CA, USA, 2019, pp. 87-92
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1109/ICOSC.2019.8665639">[DOI: 10.1109/ICOSC.2019.8665639]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2101.03967">[arXiv]</a>
             </span><br />
           </dd>
@@ -739,6 +772,7 @@
               736. Springer, Cham. pp. 998-1007, 2017
             </span><br />
             <span class="sg-publication-links">
+              <a class="uk-button uk-button-text" target="_blank" href="https://doi.org/10.1007/978-3-319-76348-4_96">[DOI: 10.1007/978-3-319-76348-4_96]</a>
               <a class="uk-button uk-button-text" target="_blank" href="https://arxiv.org/abs/2209.01045">[arXiv]</a>
             </span><br />
           </dd>
@@ -769,7 +803,10 @@
               Paradigm Shift in Education Technology and Content Management, e-tcm-2012
             </span><br />
             <span class="sg-publication-links">
-              <a class="uk-button uk-button-text" href="#">[TODO]</a>
+              <a class="uk-button uk-button-text" target="_blank" href="https://www.researchgate.net/publication/348381556"
+                style="text-transform: none !important; font-variant: small-caps;">
+                [ResearchGate]
+              </a>
             </span><br />
           </dd>
 
@@ -784,7 +821,9 @@
         uk-parallax="start: 100%; end: 100%; invert: 100;">
 
         <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-          <h1 class="uk-heading-xlarge uk-animation-slide-left" style="color: black;">Patents&nbsp;
+          <h1 class="uk-heading-xlarge" style="color: black;"
+            uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+            Patents&nbsp;
             <span class="uk-heading-medium" style="color: black;">(7)</span>
           </h1>
         </div>
@@ -808,10 +847,9 @@
         style="background-image: url('images/section-intro/Industry-RnR.jpg');" uk-parallax="bgy: -400; sepia: 100"
         uk-height-viewport="offset-top: true">
 
-        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical uk-animation-slide-left"
-          style="color: brown; text-shadow: 2px 2px 10px whitesmoke;">
+        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
           Industry<br />
-          <span class="uk-heading-large" style="color: brown; text-shadow: 2px 2px 10px whitesmoke;">
+          <span class="uk-heading-large">
             Roles and Responsibilities
           </span>
         </h1>
@@ -996,13 +1034,14 @@
 
     <div id="sg-sec-container-peer-reviews" class="uk-section uk-section-default">
       <div class="sg-section-intro-banner">
+        <h1 class="uk-heading-xlarge uk-text-center" uk-scrollspy="cls: uk-animation-scale-up; repeat: true"
+          uk-parallax="y: 100;" uk-sticky="end: 1vh">
+          Peer Reviews
+        </h1>
         <div class="uk-cover-container uk-transform-origin-bottom-center uk-margin-bottom"
           uk-parallax="scale: 1,.2; start: 100%; end: 40vh" uk-height-viewport>
           <img src="images/section-intro/Peer-Reviews.png" width="1800" height="1200" alt="" uk-cover>
         </div>
-        <h1 class="uk-heading-xlarge uk-text-center uk-animation-slide-left">
-          Peer Reviews
-        </h1>
       </div>
 
       <h1 class="sg-section-intro-print uk-heading-bullet">Peer Reviews</h1>
@@ -1022,7 +1061,9 @@
         uk-parallax="start: 100%; end: 100%; invert: 100;">
 
         <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-          <h1 class="uk-heading-xlarge uk-animation-slide-left" style="text-shadow: 2px 2px 10px green;">Invited Roles
+          <h1 class="uk-heading-xlarge" style="text-shadow: 2px 2px 10px green;"
+            uk-scrollspy="cls: uk-animation-shake; repeat: true">
+            Invited Roles
           </h1>
         </div>
       </div>
@@ -1126,8 +1167,8 @@
         style="background-image: url('images/section-intro/Collaborations.jpg');" uk-parallax="bgy: -400; sepia: 100"
         uk-height-viewport="offset-top: true">
 
-        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical uk-animation-slide-left"
-          style="text-shadow: 2px 2px 10px navy;">
+        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical"
+          style="text-shadow: 2px 2px 10px navy;" uk-scrollspy="cls: uk-animation-fade; repeat: true">
           Collaborations
         </h1>
       </div>
@@ -1161,7 +1202,7 @@
           uk-parallax="scale: 1,.2; start: 100%; end: 40vh" uk-height-viewport>
           <img src="images/section-intro/Teaching.jpg" width="1800" height="1200" alt="" uk-cover>
         </div>
-        <h1 class="uk-heading-xlarge uk-text-center uk-animation-slide-left">
+        <h1 class="uk-heading-xlarge uk-text-center" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
           Teaching Experience
         </h1>
       </div>
@@ -1201,8 +1242,8 @@
         style="background-image: url('images/section-intro/Education.jpg');" uk-parallax="bgy: -400; sepia: 100"
         uk-height-viewport="offset-top: true">
 
-        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical uk-animation-slide-left"
-          style="text-shadow: 2px 2px 10px gray;">
+        <h1 class="uk-heading-xlarge uk-margin-auto uk-margin-auto-vertical"
+          style="text-shadow: 2px 2px 10px gray;" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
           Education
         </h1>
       </div>
@@ -1334,7 +1375,7 @@
           <img src="wp-content/uploads/2017/01/cropped-IMG_20160229_021229.jpg" width="1800" height="1200" alt=""
             uk-cover>
         </div>
-        <h1 class="uk-heading-xlarge uk-text-center uk-animation-slide-left">
+        <h1 class="uk-heading-xlarge uk-text-center" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
           Awards
         </h1>
       </div>
@@ -1355,10 +1396,11 @@
       <div
         class="sg-section-intro-banner uk-height-large uk-background-cover uk-margin uk-overflow-hidden uk-light uk-flex"
         style="background-image: url('images/section-intro/Contact.jpg');"
-        uk-parallax="start: 100%; end: 100%; invert: 100;">
+        uk-parallax="start: 100%; end: 100%; hue: 100;">
 
         <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-          <h1 class="uk-heading-xlarge uk-animation-slide-left" style="color: black; text-shadow: 2px 2px 10px navy;">
+          <h1 class="uk-heading-xlarge" style="color: rgb(33, 253, 107); text-shadow: 2px 2px 10px navy;"
+            uk-scrollspy="cls: uk-animation-scale-down; repeat: true">
             Contact</h1>
         </div>
       </div>
