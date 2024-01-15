@@ -255,24 +255,24 @@
     }
 }
 
-#sg-sec-container-publications .sg-section-intro-banner h1,
-#sg-sec-container-publications .sg-section-intro-banner h1 span {
+#sg-sec-container-publications .sg-section-intro-banner h2,
+#sg-sec-container-publications .sg-section-intro-banner h2 span {
     color: rgb(172, 101, 9) !important;
     text-shadow: -2px -2px 10px white, 2px -2px 10px white, -2px 2px 10px white, 2px 2px 10px white !important;
 }
 
-#sg-sec-container-peer-reviews .sg-section-intro-banner h1 {
+#sg-sec-container-peer-reviews .sg-section-intro-banner h2 {
     color: goldenrod !important;
     text-shadow: -2px -2px 10px skyblue, 2px -2px 10px skyblue, -2px 2px 10px skyblue, 2px 2px 10px skyblue !important;
 }
 
-#sg-sec-container-industry-roles-and-responsibilities .sg-section-intro-banner h1,
-#sg-sec-container-industry-roles-and-responsibilities .sg-section-intro-banner h1 span {
+#sg-sec-container-industry-roles-and-responsibilities .sg-section-intro-banner h2,
+#sg-sec-container-industry-roles-and-responsibilities .sg-section-intro-banner h2 span {
     color: brown;
     text-shadow: -2px -2px 10px whitesmoke, 2px -2px 10px whitesmoke, -2px 2px 10px whitesmoke, 2px 2px 10px whitesmoke;
 }
 
-#sg-sec-container-news .sg-section-intro-banner h1 {
+#sg-sec-container-news .sg-section-intro-banner h2 {
     color: beige;
     text-shadow: 2px 2px 50px rgb(128, 49, 4);
 }
