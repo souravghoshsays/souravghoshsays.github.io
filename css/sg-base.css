@@ -3,16 +3,16 @@
     white-space: nowrap;
 }
 
-.sg-publication-title {
+.sg-publication-title, .sg-patent-title {
     text-transform: none !important;
     font-size: x-large !important;
 }
 
-.sg-publication-authors {
+.sg-publication-authors, .sg-patent-inventors {
     color: #8b8989;
 }
 
-.sg-publication-forum {
+.sg-publication-forum, .sg-patent-timeline {
     color: #be1919;
     font-style: italic;
 }
@@ -22,11 +22,11 @@
     font-weight: bold;
 }
 
-.sg-publication-links {
+.sg-publication-links, .sg-patent-links {
     text-transform: uppercase !important;
 }
 
-.sg-publication-links a {
+.sg-publication-links a, .sg-patent-links a {
     margin-right: 10px;
 }
 
@@ -122,6 +122,7 @@
 }
 
 .sg-publication-links .uk-button-text,
+.sg-patent-links .uk-button-text,
 .sg-news-items li .uk-button-text {
     color: rgb(7, 145, 209) !important;
 }
