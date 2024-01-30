@@ -3,16 +3,16 @@
     white-space: nowrap;
 }
 
-.sg-publication-title, .sg-patent-title {
+.sg-publication-title, .sg-patent-title, .sg-invited-role-event {
     text-transform: none !important;
     font-size: x-large !important;
 }
 
-.sg-publication-authors, .sg-patent-inventors {
+.sg-publication-authors, .sg-patent-inventors, .sg-invited-role-duty {
     color: #8b8989;
 }
 
-.sg-publication-forum, .sg-patent-timeline {
+.sg-publication-forum, .sg-patent-timeline, .sg-invited-role-organizer {
     color: #be1919;
     font-style: italic;
 }
@@ -22,30 +22,12 @@
     font-weight: bold;
 }
 
-.sg-publication-links, .sg-patent-links {
+.sg-publication-links, .sg-patent-links, .sg-invited-role-links {
     text-transform: uppercase !important;
 }
 
-.sg-publication-links a, .sg-patent-links a {
+.sg-publication-links a, .sg-patent-links a, .sg-invited-role-links a {
     margin-right: 10px;
-}
-
-.sg-invited-role-event {
-    text-transform: none !important;
-    font-size: x-large !important;
-}
-
-.sg-invited-role-duty {
-    color: #8b8989;
-}
-
-.sg-invited-role-organizer {
-    color: #be1919;
-    font-style: italic;
-}
-
-.sg-invited-role-links {
-    text-transform: uppercase !important;
 }
 
 .sg-education-institution-university-board {
@@ -123,7 +105,9 @@
 
 .sg-publication-links .uk-button-text,
 .sg-patent-links .uk-button-text,
-.sg-news-items li .uk-button-text {
+.sg-invited-role-links .uk-button-text,
+.sg-news-items li .uk-button-text,
+#sg-footer .uk-button-text {
     color: rgb(7, 145, 209) !important;
 }
 
