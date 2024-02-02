@@ -10,7 +10,7 @@
 
 ## Disclaimer
 
-All the information on this WEBSITE - https://souravghoshsays.github.io/ - is published in good faith and for general information purpose only. SOURAV GHOSH does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this WEBSITE, is strictly at your own risk. SOURAV GHOSH will not be liable for any losses and/or damages in connection with the use of this WEBSITE.
+All of the information on this WEBSITE - [https://souravghoshsays.github.io/](https://souravghoshsays.github.io/) - is published in good faith and for general information purpose only. SOURAV GHOSH does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this WEBSITE, is strictly at your own risk. SOURAV GHOSH will not be liable for any losses and/or damages in connection with the use of this WEBSITE.
 
 Content in this WEBSITE may contain references to proprietary material. Rights to trademarks, including but not limited to logos and brand names, are retained by their respective brand owners.
 
@@ -21,7 +21,7 @@ Please also be aware that when you leave this WEBSITE, other sites may have diff
 
 ### Contribution
 
-While members of the public are welcome act as CONTRIBUTOR and suggest modifications or create Pull Requests, the owner of the WEBSITE alone has the liberty to accept such contributions, either in part or in full. By submitting or sharing any contribution, the CONTRIBUTOR relinquishes all rights pertaining to the future usage of such contributions, and transfers any associated intellectual property, without any restriction or limitation, to SOURAV GHOSH.
+While members of the public are welcome to act as CONTRIBUTOR and suggest modifications or create Pull Requests, the owner of the WEBSITE alone has the liberty to accept such contributions, either in part or in full. By submitting or sharing any contribution, the CONTRIBUTOR relinquishes all rights pertaining to the future usage of such contributions, and transfers any associated intellectual property, without any restriction or limitation, to SOURAV GHOSH.
 
 
 ## Consent
