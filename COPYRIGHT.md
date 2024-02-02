@@ -1,11 +1,11 @@
 # Copyright and Disclaimer
 
 
-## Copyright (c) 2024 Sourav Ghosh
+## Copyright &copy; 2024 Sourav Ghosh
 
 **All rights reserved.**
 
-SOURAV GHOSH (https://www.linkedin.com/in/sourav92/) is the sole owner of the website at the URL, https://souravghoshsays.github.io/ (hereafter, referred to as WEBSITE). No portion of this WEBSITE may be reproduced or distributed without the express written consent of SOURAV GHOSH.
+[SOURAV GHOSH](https://www.linkedin.com/in/sourav92/) is the sole owner of the website at the URL, [https://souravghoshsays.github.io/](https://souravghoshsays.github.io/) (hereafter, referred to as WEBSITE). No portion of this WEBSITE may be reproduced or distributed without the express written consent of SOURAV GHOSH.
 
 
 ## Disclaimer
