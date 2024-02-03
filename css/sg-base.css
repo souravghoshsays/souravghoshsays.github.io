@@ -72,6 +72,18 @@
     margin-bottom: 20px !important;
 }
 
+.sg-industry-title {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Tangerine', Arial, sans-serif;
+}
+
+.sg-industry-org {
+    min-width: 20%;
+    max-width: 40%;
+    font-size: xx-large;
+}
+
 .sg-professional-page-container {
     margin-top: 5%;
 }
@@ -95,11 +107,12 @@
     color: skyblue !important;
 }
 
-.sg-news-items li .uk-button-text {
+.sg-news-items li .uk-button-text,
+.sg-collaboration-items li .uk-button-text {
     vertical-align: baseline;
 }
 
-.sg-news-timeline {
+.sg-news-timeline, .sg-collaboration-timeline {
     color: #8b8989;
 }
 
@@ -107,6 +120,7 @@
 .sg-patent-links .uk-button-text,
 .sg-invited-role-links .uk-button-text,
 .sg-news-items li .uk-button-text,
+.sg-collaboration-items li .uk-button-text,
 .sg-education-notes .uk-button-text,
 #sg-footer .uk-button-text {
     color: rgb(7, 145, 209) !important;

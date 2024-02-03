@@ -23,7 +23,7 @@
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.min.js"></script>
   <link
-    href="https://fonts.googleapis.com/css?family=Outfit|Red Hat Display|Noto Serif Bengali|Noto Serif Devanagari|Song Myung|Noto Serif Kannada"
+    href="https://fonts.googleapis.com/css?family=Outfit|Red Hat Display|Noto Serif Bengali|Noto Serif Devanagari|Song Myung|Noto Serif Kannada|Tangerine"
     rel="stylesheet">
 
   <!----------------- Adapted from legacy : BEGIN ----------------->
@@ -569,7 +569,7 @@
       <h2 class="sg-section-intro-print uk-heading-bullet">News</h2>
 
       <div class="uk-container">
-        <ul class="uk-list uk-list-disc sg-news-items">
+        <ul class="uk-list uk-list-disc uk-list-striped sg-news-items">
           <li>
             <span class="sg-news-timeline">2023-Dec |</span>
             Participated as a judge at Smart India Hackathon 2023 - Grand Finale.&nbsp;
@@ -1113,32 +1113,83 @@
       <h2 class="sg-section-intro-print uk-heading-bullet">Industry Roles and Responsibilities</h2>
 
       <div id="sg-industry-chief-engineer-at-samsung-research" class="uk-container sg-industry-designation">
-        <h3 class="uk-article-title">Chief Engineer @ Samsung Research</h3>
+        <h3 class="uk-article-title">
+          <div class="uk-flex">
+            <div class="sg-industry-title uk-width-expand">Chief Engineer</div>
+            <div class="sg-industry-org">
+              <img loading="lazy" src="images/icons/Samsung-Research.png" alt="Samsung Research" />
+            </div>
+          </div>
+        </h3>
+
+        <p class="uk-article-meta">2024 | Bangalore, India</p>
+
+        <p><b><i>(In progress:)</i></b></p>
+        <ul class="uk-list uk-list-disc">
+          <li>LLMs for Mxxxxxx domain.</li>
+          <li>Segmentation engine: Re-design to attain enhanced decoding performance in Next OS, Expansion to additional
+            clients.</li>
+        </ul>
+
         <p class="uk-article-meta">2023 | Bangalore, India</p>
-        <p>
-          Generative AI, ADAS, Video AI
-        </p>
-        <ul>
-          <li>Patents: 3 A1</li>
-          <li>Papers: 2</li>
+
+        <p><b>Innovation Highlights:</b></p>
+        <ul class="uk-list uk-list-disc">
+          <li>Patents: 3 graded A1 (spatial cropping, AI generated video detection, transition generation). Ideation for
+            VST.</li>
+          <li>Papers: 2 external acceptances (WACV, IEEE/ACM TASLP). SBPA: Cleared extended abstract round for 2 papers.
+          </li>
+          <li>Generative AI: Stable Diffusion, Llama 2 deployment and groundwork experiments, including CodeReview-LLM,
+            SegmentCaption-LLM, SceneForwarder-LLM.</li>
+        </ul>
+
+        <p><b>Project Highlights:</b></p>
+        <ul class="uk-list uk-list-disc">
+          <li>ADAS Depth Estimation (B2B): Native engine (arm64-linux board), NPU.</li>
+          <li>Video Moments: Library design, Annotation review guidelines and framework setup,
+            Enabled validation of ~8k videos. Engine integration with multiple client applications:
+            DR, E-X, S-Sheet, VE/S.</li>
+          <li>Automation pipelines: Builders for HQ and B2B partner; Streamlined depthmap visualization and evaluation,
+            CI/CD: Instrumentation, Documentation (Doxygen, KDoc), and unit tests (Jacoco, Mockito).
+          </li>
+        </ul>
+
+        <p><b>Leadership Highlights:</b></p>
+        <ul class="uk-list uk-list-disc">
+          <li>Guided team in ADAS model training and in planning experiments for enhancement.</li>
+          <li>On-schedule release management by guiding efforts of team members.</li>
+          <li>Channeled junior member's effrts in preparing flavored engines and UT APKs for annotators.</li>
+          <li>Guided team member in initial planning for Spatial Cropping.</li>
+          <li>Guided junior member in conducting experiment towards prompt engineering and fine-tuning LLMs.</li>
+          <li>Leading enhancement plan for segmentation engine.</li>
+        </ul>
+
+        <p><b>Comptency Highlights:</b></p>
+        <ul class="uk-list uk-list-disc">
+          <li>Peer-reviewed 17+ papers for ACL, NeurIPS, WiCV @ ICCV, EMNLP, EACL, ICON. Received reviewer invitation to
+            ACL 2023, Toronto.</li>
+          <li>Reviewed paper submission for *ACL journal (SRIB internal).</li>
+          <li>BART migration documentation and assistance to ISG (Group).</li>
+          <li>Code Quality TF: Prepared wiki pages for AI/ML best practices, planned action items for quality
+            improvement goals.</li>
         </ul>
 
         <p class="uk-article-meta">2022 | Bangalore, India</p>
         <p><b>Innovation Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Patents: 1 A1 (M. Screen Reader)</li>
           <li>Publications: Best Paper Candidate (IEEE ICSC), Best Track Paper Award (IEEE CONECCT)</li>
         </ul>
 
         <p><b>Project Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Advanced Smart Reply</li>
           <li>Monocular Depth Estimation on xPU for ADAS</li>
           <li>Number Disambiguation (Linkify+)</li>
         </ul>
 
         <p><b>Competency Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Best Reviewer Appreciation (Samsung Best Paper Award)</li>
           <li>Mentored 6mo intern for Topical Reply Data Curation</li>
           <li>Industry-academia collaboration: Featured in PRISM newsletter</li>
@@ -1151,13 +1202,13 @@
 
         <p class="uk-article-meta">2021 | Bangalore, India</p>
         <p><b>Innovation Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Patents: 2 PS-CS, 1 Direct CS, 1 PS</li>
           <li>Publications: 4</li>
         </ul>
 
         <p><b>Project Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Shallow Learning Fwk: SDK design and implementation, Integration with FL and SNAP</li>
           <li>Screen Intelligence: incl. Coreference Resolution and Interest Extraction</li>
           <li>Z Language: SOUNDEX vs. WVA, Implemented DECODE lookup logic</li>
@@ -1168,9 +1219,9 @@
         </ul>
 
         <p><b>Competency Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Awards:
-            <ul>
+            <ul class="uk-list uk-list-circle">
               <li>Samsung Excellence Award Q1 2021 (Super Tech - Innovator)</li>
               <li>Best Code Reviewer Award H1 2021</li>
               <li>Peer Appreciation</li>
@@ -1195,16 +1246,23 @@
       </div>
 
       <div id="sg-industry-lead-engineer-at-samsung-research" class="uk-container sg-industry-designation">
-        <h3 class="uk-article-title">Lead Engineer @ Samsung Research | Bangalore, India</h3>
+        <h3 class="uk-article-title">
+          <div class="uk-flex">
+            <div class="sg-industry-title uk-width-expand">Lead Engineer</div>
+            <div class="sg-industry-org">
+              <img loading="lazy" src="images/icons/Samsung-Research.png" alt="Samsung Research" />
+            </div>
+          </div>
+        </h3>
         <p class="uk-article-meta">2020 | Bangalore, India</p>
         <p><b>Innovation Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Patents: 2 CS filings, 2 PS filings</li>
           <li>Paper acceptance in external conferences: 4</li>
         </ul>
 
         <p><b>Project Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>On-Device Learning Framework</li>
           <li>Information Extraction Engine</li>
           <li>Light-weight and fast-inference SpellChecker, and its applications in Grammar Error Correction</li>
@@ -1212,16 +1270,16 @@
         </ul>
 
         <p><b>Competency Highlights:</b></p>
-        </ul>
-        <li>Mentor for 30 PRISM worklets (industry-academia collaboration), and two 2-month interns</li>
-        <li>SW Competency Catalyst and Expert TF Champion for Intelligent KB Part</li>
-        <li>Evangelised CI/CD</li>
+        <ul class="uk-list uk-list-disc">
+          <li>Mentor for 30 PRISM worklets (industry-academia collaboration), and two 2-month interns</li>
+          <li>SW Competency Catalyst and Expert TF Champion for Intelligent KB Part</li>
+          <li>Evangelised CI/CD</li>
         </ul>
 
 
         <p class="uk-article-meta">2019 | Bangalore, India</p>
         <p><b>Highlights:</b></p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Worked on Auto-Correction and improved F1 score by 15% for EFIGS languages.</li>
           <li>Published and commercialised Language Detection for Multilingual Texting (patent pending), Word Variant
             Disambiguation (patent pending), Light-weight LM.</li>
@@ -1235,15 +1293,22 @@
       </div>
 
       <div id="sg-industry-senior-software-engineer-at-samsung-research" class="uk-container sg-industry-designation">
-        <h3 class="uk-article-title">Senior Software Engineer @ Samsung Research | Bangalore, India</h3>
+        <h3 class="uk-article-title">
+          <div class="uk-flex">
+            <div class="sg-industry-title uk-width-expand">Senior Software Engineer</div>
+            <div class="sg-industry-org">
+              <img loading="lazy" src="images/icons/Samsung-Research.png" alt="Samsung Research" />
+            </div>
+          </div>
+        </h3>
         <p class="uk-article-meta">2018 | Bangalore, India | Suwon, South Korea</p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Worked with OnDevice AI team on AI research and commercialized native intelligence offerings on flagship
             devices.</li>
         </ul>
 
         <p class="uk-article-meta">2017 | Bangalore, India</p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>On-device Named Entity Recognition</li>
         </ul>
 
@@ -1253,7 +1318,14 @@
       </div>
 
       <div id="sg-industry-aem-developer-at-tata-consultancy-services" class="uk-container sg-industry-designation">
-        <h3 class="uk-article-title">AEM Developer @ Tata Consultancy Services</h3>
+        <h3 class="uk-article-title">
+          <div class="uk-flex">
+            <div class="sg-industry-title uk-width-expand">AEM Developer</div>
+            <div class="sg-industry-org">
+              <img loading="lazy" src="images/icons/Tata-Consultancy-Services.svg" alt="Tata Consultancy Services" />
+            </div>
+          </div>
+        </h3>
         <p class="uk-article-meta">2014-15 | Thiruvananthapuram, India | Kolkata, India</p>
         <p>
           Worked with Digital Marketing, Digital Enterprise Services &amp; Solutions (DESS).
@@ -1275,9 +1347,19 @@
       </div>
 
       <div id="sg-industry-microsoft-student-partner-at-microsoft" class="uk-container sg-industry-designation">
-        <h3 class="uk-article-title">Microsoft Student Partner @ Microsoft</h3>
+        <h3 class="uk-article-title">
+          <div class="uk-flex">
+            <div class="sg-industry-title uk-width-expand">Microsoft Student Partner</div>
+            <div class="sg-industry-org">
+              <div class="uk-flex">
+                <div><img loading="lazy" src="images/icons/Microsoft.svg" alt="Microsoft" width="50px"/></div>
+                <div class="uk-margin-auto uk-align-right">Microsoft</div>
+              </div>
+            </div>
+          </div>
+        </h3>
         <p class="uk-article-meta">2012-14 | Kolkata, India</p>
-        <ul>
+        <ul class="uk-list uk-list-disc">
           <li>Developed apps for Windows Store and Windows Phone Marketplace.</li>
           <li>Participated in and evangelised competitions like DVLUP.</li>
           <li>Organised workshops for modern technologies and app development.</li>
@@ -1435,9 +1517,9 @@
       <h2 class="sg-section-intro-print uk-heading-bullet">Collaborations</h2>
 
       <div class="uk-container">
-        <ul class="uk-list uk-list-disc sg-news-items">
+        <ul class="uk-list uk-list-disc uk-list-striped sg-collaboration-items">
           <li>
-            <span class="sg-news-timeline">2021 - 2022 |</span>
+            <span class="sg-collaboration-timeline">2021 - 2022 |</span>
             Mentored over 35 teams as part of Samsung PRISM.&nbsp;
             <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
               href="https://www.linkedin.com/posts/sourav92_samsung-prism-conversaytions-activity-7014988821033316352-nUBR">
@@ -1537,7 +1619,7 @@
               <br />
 
               <b>Notable Contributions:</b>
-              <ul>
+              <ul class="uk-list uk-list-disc">
                 <li>Worked on educational data management and semantic relations of text documents under the supervision
                   of Prof. Soumya Kanti Ghosh, and close collaboration with Anupam Khan</li>
                 <li>Worked on traffic detection and data aggregation</li>
@@ -1573,7 +1655,7 @@
               <br />
 
               <b>Notable Achievements and Contributions:</b>
-              <ul>
+              <ul class="uk-list uk-list-disc">
                 <li>Amongst All India Top 15 - Winners of IBM TGMC 2012</li>
                 <li>Certified as Microsoft Certified Professional (MCP) and Microsoft Specialist</li>
                 <li>Published 1 journal and 1 conference paper</li>
@@ -1619,7 +1701,7 @@
               <b>Activities and societies:</b> Talent Hunts, Cultural programmes, Tech fests<br />
 
               <b>Notable Achievements:</b>
-              <ul>
+              <ul class="uk-list uk-list-disc">
                 <li>School Topper in AISSE (Class X Board Examination)</li>
                 <li>Served as Prefect and House Captain in both junior and senior years</li>
                 <li>Secured 3rd rank in MBD Competition at the state level</li>
