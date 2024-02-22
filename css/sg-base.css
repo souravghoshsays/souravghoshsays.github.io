@@ -78,6 +78,11 @@
     font-family: 'Tangerine', Arial, sans-serif;
 }
 
+.sg-collaboration-sketch-title {
+    font-weight: bolder;
+    font-family: 'Tangerine', Arial, sans-serif;
+}
+
 .sg-industry-org {
     min-width: 20%;
     max-width: 40%;
@@ -108,8 +113,12 @@
 }
 
 .sg-news-items li .uk-button-text,
-.sg-collaboration-items li .uk-button-text {
+.sg-collaboration-items .uk-button-text {
     vertical-align: baseline;
+}
+
+.sg-collaboration-items p {
+    text-align: justify;
 }
 
 .sg-news-timeline, .sg-collaboration-timeline {
@@ -120,7 +129,7 @@
 .sg-patent-links .uk-button-text,
 .sg-invited-role-links .uk-button-text,
 .sg-news-items li .uk-button-text,
-.sg-collaboration-items li .uk-button-text,
+.sg-collaboration-items .uk-button-text,
 .sg-education-notes .uk-button-text,
 #sg-footer .uk-button-text {
     color: rgb(7, 145, 209) !important;

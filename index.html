@@ -210,7 +210,7 @@
           <li><a href="#sg-sec-container-publications" uk-scroll>Publications</a>
           </li>
           <li><a href="#sg-sec-container-patents" uk-scroll>Patents</a></li>
-          <li>
+          <li class="uk-parent">
             <a href="#sg-sec-container-industry-roles-and-responsibilities" uk-scroll>Industry R&amp;R<span
                 uk-drop-parent-icon></span></a>
             <div class="uk-dropdown">
@@ -228,13 +228,19 @@
               </ul>
             </div>
           </li>
-          <li>
+          <li class="uk-parent">
             <a href>More<span uk-drop-parent-icon></span></a>
             <div class="uk-dropdown">
               <ul class="uk-nav uk-dropdown-nav">
                 <li><a href="#sg-sec-container-peer-reviews" uk-scroll>Peer Reviews</a></li>
                 <li><a href="#sg-sec-container-invited-roles" uk-scroll>Invited Roles</a></li>
-                <li><a href="#sg-sec-container-collaborations" uk-scroll>Collaborations</a></li>
+                <li class="uk-parent">
+                  <a href="#sg-sec-container-collaborations" uk-scroll>Collaborations</a>
+                  <ul class="uk-nav-sub">
+                    <li><a href="#sg-collaborations-sketches" uk-scroll>
+                        Sketches and Portraits</a></li>
+                  </ul>
+                </li>
                 <li><a href="#sg-sec-container-teaching" uk-scroll>Teaching</a></li>
                 <li><a href="#sg-sec-container-education" uk-scroll>Education</a></li>
                 <li><a href="#sg-sec-container-awards" uk-scroll>Awards</a></li>
@@ -269,7 +275,7 @@
         <li><a href="#sg-sec-container-publications" uk-scroll>Publications</a>
         </li>
         <li><a href="#sg-sec-container-patents" uk-scroll>Patents</a></li>
-        <li>
+        <li class="uk-parent">
           <a href="#sg-sec-container-industry-roles-and-responsibilities" uk-scroll>Industry R&amp;R</a>
           <ul class="uk-nav-sub">
             <li><a href="#sg-industry-chief-engineer-at-samsung-research" uk-scroll>
@@ -287,7 +293,13 @@
         </li>
         <li><a href="#sg-sec-container-peer-reviews" uk-scroll>Peer Reviews</a></li>
         <li><a href="#sg-sec-container-invited-roles" uk-scroll>Invited Roles</a></li>
-        <li><a href="#sg-sec-container-collaborations" uk-scroll>Collaborations</a></li>
+        <li class="uk-parent">
+          <a href="#sg-sec-container-collaborations" uk-scroll>Collaborations</a>
+          <ul class="uk-nav-sub">
+            <li><a href="#sg-collaborations-sketches" uk-scroll>
+                Sketches and Portraits</a></li>
+          </ul>
+        </li>
         <li><a href="#sg-sec-container-teaching" uk-scroll>Teaching</a></li>
         <li><a href="#sg-sec-container-education" uk-scroll>Education</a></li>
         <li><a href="#sg-sec-container-awards" uk-scroll>Awards</a></li>
@@ -1701,23 +1713,180 @@
       <h2 class="sg-section-intro-print uk-heading-bullet">Collaborations</h2>
 
       <div class="uk-container">
-        <ul class="uk-list uk-list-disc uk-list-striped sg-collaboration-items">
-          <li>
-            <span class="sg-collaboration-timeline">2021 - 2022 |</span>
-            Mentored over 35 teams as part of Samsung PRISM.&nbsp;
-            <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
-              href="https://www.linkedin.com/posts/sourav92_samsung-prism-conversaytions-activity-7014988821033316352-nUBR">
-              [Featured on ConverSayTions]</a>
-          </li>
-          <li>
-            ...
-          </li>
-        </ul>
+        <div class="sg-collaboration-items">
 
-        <p>
-          <span uk-icon="paint-bucket"></span>
-          More updates coming soon.
-        </p>
+          <div class="uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid
+            style="background-color: rgb(230, 245, 250);">
+            <div class="uk-card-media-left uk-cover-container">
+              <img loading="lazy" src="images/misc/Featured-in-ConverSayTions.jpeg"
+                alt="Sourav Ghosh, featured in ConverSayTions" uk-cover>
+              <canvas width="500" height="300"></canvas>
+            </div>
+            <div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">Samsung PRISM</h3>
+                <p class="sg-collaboration-timeline uk-text-meta uk-margin-remove-top">2021 - 2022</p>
+                <p>
+                  Samsung PRISM is an industry-academia program, offering students an opportunity to work on real-world
+                  projects, interact with Samsung's technical experts, and gain hands-on experience in core technology
+                  domains. I have mentored over 35 teams as part of Samsung PRISM and have been privileged to
+                  collaborate with around 50 professors and over 150 students from leading academic institutes in India.
+                  Some of these work-lets have resulted in publications and novel ideations.
+                </p>
+                <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
+                  href="https://www.linkedin.com/posts/sourav92_samsung-prism-conversaytions-activity-7014988821033316352-nUBR">
+                  [Featured in ConverSayTions]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="uk-card uk-card-primary uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid
+            style="background-color: #c20638;">
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+              <img loading="lazy" src="images/misc/The-Monk-who-loves-to-Shoot.webp"
+                alt='Teaser image for the illustrated story titled "The Monk who loves to Shoot"' uk-cover>
+              <canvas width="700" height="300"></canvas>
+            </div>
+            <div>
+              <div class="uk-card-body">
+                <div class="uk-flex">
+                  <h3 class="uk-card-title uk-width-expand">The Monk who loves to Shoot</h3>
+                  <div class="uk-align-right uk-width-auto">
+                    <img loading="lazy" class="uk-border-circle" width="40" height="40"
+                      src="wp-content/uploads/2017/05/Ushasi-Chaudhuri-75x75.jpg" alt="Ushasi Chaudhuri">
+                    <img loading="lazy" class="uk-border-circle" width="40" height="40"
+                      src="images/Sourav-Ghosh_Profile.png" alt="Sourav Ghosh">
+                  </div>
+                </div>
+                <p>
+                  <i>How wonderful would it be to capture the memorable stories from your dreams using
+                    a rusty black camera?!</i>
+                  As Arko embarks on an overnight train journey with his family, he meets a remarkable man who takes him
+                  on yet another journey. In this collaboration with
+                  <a class="uk-link" target="_blank" rel="external nofollow noopener noreferrer"
+                    href="https://www.instagram.com/boom_rockafella/">Ushasi Chaudhuri</a>,
+                  explore the inner child of a monk (or the inner monk of a child?)
+                </p>
+                <a class="uk-button uk-button-text uk-inverse-light" target="_blank"
+                  rel="external nofollow noopener noreferrer" style="color: aqua !important;"
+                  href="https://medium.com/@thesouravghosh/the-monk-who-loves-to-shoot-fc9036315fe1">
+                  [Read the illustrated story]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="uk-card uk-card-secondary uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+              <img loading="lazy" src="images/misc/Control-See.webp"
+                alt='Teaser image for the illustrated story titled "Control, See"' uk-cover>
+              <canvas width="500" height="300"></canvas>
+            </div>
+            <div>
+              <div class="uk-card-body">
+                <div class="uk-flex">
+                  <h3 class="uk-card-title uk-width-expand">Control, See</h3>
+                  <div class="uk-align-right uk-width-auto">
+                    <img loading="lazy" class="uk-border-circle" width="40" height="40"
+                      src="wp-content/uploads/2017/06/Sayani-Das-75x75.jpg" alt="Sayani Das">
+                    <img loading="lazy" class="uk-border-circle" width="40" height="40"
+                      src="images/Sourav-Ghosh_Profile.png" alt="Sourav Ghosh">
+                  </div>
+                </div>
+                <p>
+                  <i>Two college students visit their classroom at night.
+                    Neither is prepared for what they are about to encounter.</i>
+                  In this short story with constructive inputs from
+                  <a class="uk-link" target="_blank" rel="external nofollow noopener noreferrer"
+                    href="https://instagram.com/being_shiny/">Sayani Das</a>,
+                  explore the horrors that are more primal than the usual ones in examination hall.
+                  This story has been illustrated with Generative AI using hand-crafted prompts to acheive
+                  inter-scene character consistency.
+                  However, you may notice that there are more reasons why this story is titled <i>"Control, See"</i>!
+                </p>
+                <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
+                  href="https://medium.com/@thesouravghosh/control-see-horror-fiction-63e114f97dbb">
+                  [Read the short story]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="sg-collaborations-sketches" class="uk-margin-large-top">
+            <h3>Sketches and Portraits</h3>
+            <p>
+              The sketches presented here could not have been possible without the active support and encouragement from
+              my friends. They took the risk of letting me make a miserable effort at putting their likeness on paper.
+              😂
+            </p>
+
+            <div class="uk-flex uk-flex-auto uk-flex-center" uk-grid>
+
+              <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-card-body">
+                <div uk-lightbox>
+                  <a href="images/misc/Perspective-Satarupa-Biswas-Portrait-Sketch.jpeg"
+                    data-caption="Perspective -- feat. Satarupa Biswas" data-alt="Perspective -- feat. Satarupa Biswas">
+                    <div class="uk-card-media-top">
+                      <img loading="lazy" width="300" height="400"
+                        src="images/misc/Perspective-Satarupa-Biswas-Portrait-Sketch.jpeg"
+                        alt="Perspective -- feat. Satarupa Biswas">
+                    </div>
+                  </a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="sg-collaboration-sketch-title uk-card-title">Perspective</span>
+                  <p>Subject:
+                    <a class="uk-link" target="_blank" rel="external nofollow noopener noreferrer"
+                      href="https://www.instagram.com/satarupa_amiya/">Satarupa Biswas</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-card-body">
+                <div uk-lightbox>
+                  <a href="images/misc/My-Face-My-Rules-Ushasi-Chaudhuri-Charcoal-Portrait-Sketch.jpg"
+                    data-caption="My Face, My Rules -- feat. Ushasi Chaudhuri"
+                    data-alt="My Face, My Rules -- feat. Ushasi Chaudhuri">
+                    <div class="uk-card-media-top">
+                      <img loading="lazy" width="300" height="400"
+                        src="images/misc/My-Face-My-Rules-Ushasi-Chaudhuri-Charcoal-Portrait-Sketch.jpg"
+                        alt="My Face, My Rules -- feat. Ushasi Chaudhuri">
+                    </div>
+                  </a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="sg-collaboration-sketch-title uk-card-title">My Face, My Rules</span>
+                  <p>Subject:
+                    <a class="uk-link" target="_blank" rel="external nofollow noopener noreferrer"
+                      href="https://www.instagram.com/boom_rockafella/">Ushasi Chaudhuri</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-card-body">
+                <div uk-lightbox>
+                  <a href="images/misc/The-Scream-Ushasi-Chaudhuri-Portrait-Sketch.png"
+                    data-caption="The Deceptive Scream -- feat. Ushasi Chaudhuri"
+                    data-alt="The Deceptive Scream -- feat. Ushasi Chaudhuri">
+                    <div class="uk-card-media-top">
+                      <img loading="lazy" width="300" height="400"
+                        src="images/misc/The-Scream-Ushasi-Chaudhuri-Portrait-Sketch.png"
+                        alt="The Deceptive Scream -- feat. Ushasi Chaudhuri">
+                    </div>
+                  </a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="sg-collaboration-sketch-title uk-card-title">The Deceptive Scream</span>
+                  <p>Subject:
+                    <a class="uk-link" target="_blank" rel="external nofollow noopener noreferrer"
+                      href="https://www.instagram.com/boom_rockafella/">Ushasi Chaudhuri</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
