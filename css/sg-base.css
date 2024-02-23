@@ -125,6 +125,7 @@
 .sg-news-items li .uk-button-text,
 .sg-collaboration-items .uk-button-text {
     vertical-align: baseline;
+    margin-right: 10px;
 }
 
 .sg-collaboration-items p {
