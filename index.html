@@ -2560,7 +2560,12 @@
     return (rect.bottom > 0) && (rect.top < 0.6 * $(window).height());
   }
 
-  function updateHashText() {
+  function formatTitle(s) {
+    s = s.replaceAll('-', ' ');
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+
+  function updateHashText(isForced = false) {
     if (window.history.pushState) {
       hashText = "";
       isSectionLocated = false;
@@ -2580,11 +2585,18 @@
         }
       });
 
-      if (window.location.hash != "#" + hashText) {
+      if (isForced || (window.location.hash != "#" + hashText)) {
         window.history.pushState(null, null, "#" + hashText);
+
+        titleText = "Sourav Ghosh - Computer Science Researcher | Samsung R&D, IIT KGP";
+        document.title = (hashText.length > 1) ? (formatTitle(hashText) + " | " + titleText) : titleText;
       }
     }
   }
+
+  $(document).ready(function () {
+    updateHashText(true);
+  })
 
   $(document).on("scroll", function () {
     setTimeout(updateHashText, 2000);
