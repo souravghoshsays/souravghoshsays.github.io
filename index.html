@@ -2597,7 +2597,9 @@
         }
       });
 
-      if (isForced || (window.location.hash != "#" + hashText)) {
+      isAlreadyUpdated = window.location.hash == ((hashText.length > 0) ? ("#" + hashText) : hashText);
+
+      if (isForced || !isAlreadyUpdated) {
         window.history.pushState(null, null, (hashText.length > 0) ? ("#" + hashText) : ' ');
 
         titleText = "Sourav Ghosh - Computer Science Researcher | Samsung R&D, IIT KGP";
