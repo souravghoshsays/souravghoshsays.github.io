@@ -2563,9 +2563,18 @@
     return (rect.bottom > 0) && (rect.top < 0.6 * $(window).height());
   }
 
-  function formatTitle(s) {
-    s = s.replaceAll('-', ' ');
-    return s.charAt(0).toUpperCase() + s.slice(1);
+  function capitalize(token) {
+    return token.charAt(0).toUpperCase() + token.slice(1);
+  }
+
+  function formatAsTitle(str) {
+    if (str == 'designation-chief-engineer-at-samsung-research') {
+      str = str.replaceAll('designation-', '');
+    }
+    else {
+      str = str.replaceAll('designation-', 'former-');
+    }
+    return str.split('-').map(capitalize).join(' ');
   }
 
   function updateHashText(isForced = false) {
@@ -2589,10 +2598,10 @@
       });
 
       if (isForced || (window.location.hash != "#" + hashText)) {
-        window.history.pushState(null, null, "#" + hashText);
+        window.history.pushState(null, null, (hashText.length > 0) ? ("#" + hashText) : ' ');
 
         titleText = "Sourav Ghosh - Computer Science Researcher | Samsung R&D, IIT KGP";
-        document.title = (hashText.length > 1) ? (formatTitle(hashText) + " | " + titleText) : titleText;
+        document.title = (hashText.length > 1) ? (formatAsTitle(hashText) + " | " + titleText) : titleText;
 
         gtag('event', 'page_view', {
           'page_title': document.title,
@@ -2605,6 +2614,10 @@
   $(document).ready(function () {
     updateHashText(true);
   })
+
+  $("a").on("click", function () {
+    setTimeout(updateHashText.bind(null, true), 2000);
+  });
 
   $(document).on("scroll", function () {
     setTimeout(updateHashText, 2000);
