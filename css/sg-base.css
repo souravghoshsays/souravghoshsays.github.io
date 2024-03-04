@@ -69,6 +69,10 @@
     text-transform: none !important;
 }
 
+.sg-subsection {
+    padding-top: 5% !important;
+}
+
 .uk-section {
     padding-top: 0% !important;
     margin-bottom: 10% !important;
