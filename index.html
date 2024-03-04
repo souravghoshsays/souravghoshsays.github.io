@@ -2596,7 +2596,8 @@
 <script>
   function isDivVisible(e) {
     var rect = e.getBoundingClientRect();
-    return (rect.bottom > 0) && (rect.top < 0.6 * $(window).height());
+    var minTrailingHeight = 0.1 * $(window).height();
+    return (rect.bottom >= minTrailingHeight) && (rect.top <= 3 * minTrailingHeight);
   }
 
   function capitalize(token) {
