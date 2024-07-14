@@ -65,6 +65,7 @@
     font-size: smaller;
 }
 
+.sg-invited-role-notes,
 .sg-education-notes {
     text-transform: none !important;
 }
