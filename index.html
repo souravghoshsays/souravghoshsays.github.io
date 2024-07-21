@@ -2767,19 +2767,21 @@
       isSectionLocated = false;
       isSubsectionLocated = false;
 
-      $(".sg-section").each(function (_, sec) {
-        if (!isSectionLocated && isDivVisible(sec)) {
-          isSectionLocated = true;
-          hashText = sec.id;
+      if (window.scrollY != 0) {
+        $(".sg-section").each(function (_, sec) {
+          if (!isSectionLocated && isDivVisible(sec)) {
+            isSectionLocated = true;
+            hashText = sec.id;
 
-          $(sec).find(".sg-subsection").each(function (_, subsec) {
-            if (!isSubsectionLocated && isDivVisible(subsec)) {
-              hashText = subsec.id;
-              isSubsectionLocated = true;
-            }
-          });
-        }
-      });
+            $(sec).find(".sg-subsection").each(function (_, subsec) {
+              if (!isSubsectionLocated && isDivVisible(subsec)) {
+                hashText = subsec.id;
+                isSubsectionLocated = true;
+              }
+            });
+          }
+        });
+      }
 
       isAlreadyUpdated = window.location.hash == ((hashText.length > 0) ? ("#" + hashText) : hashText);
 
