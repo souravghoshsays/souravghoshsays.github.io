@@ -288,6 +288,11 @@
     }
 }
 
+.sg-section-intro-banner h2,
+.sg-section-intro-banner h2 > span {
+    font-family: "Dancing Script", cursive;
+}
+
 #publications .sg-section-intro-banner h2,
 #publications .sg-section-intro-banner h2 span {
     color: rgb(172, 101, 9) !important;
