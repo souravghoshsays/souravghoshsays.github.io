@@ -104,6 +104,13 @@
     font-size: xx-large;
 }
 
+.sg-industry-timeline {
+    display: block;
+    font-size: medium;
+    font-style: italic;
+    text-align: right;
+}
+
 .sg-professional-page-container {
     margin-top: 5%;
 }
