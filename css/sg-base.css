@@ -5,9 +5,11 @@
 
 .sg-publication-title,
 .sg-patent-title,
-.sg-invited-role-event {
+.sg-invited-role-event,
+.sg-education-institution-university-board {
     text-transform: none !important;
     font-size: x-large !important;
+    letter-spacing: 0.01em;
 }
 
 .sg-publication-authors,
@@ -40,9 +42,15 @@
     margin-right: 10px;
 }
 
-.sg-education-institution-university-board {
-    text-transform: none !important;
-    font-size: x-large !important;
+.sg-invited-role-links a {
+    background: linear-gradient(90deg, #f7c847 0%, #f9d976 100%);
+    border-radius: 6px;
+    padding: 0.25em 0.9em;
+    font-weight: 600;
+}
+.sg-invited-role-links a:hover{
+    background: linear-gradient(90deg, #f9d976 0%, #f7c847 100%);
+    color: #b85c0b !important;
 }
 
 .sg-education-qualification {
@@ -119,6 +127,10 @@
     display: flex;
     align-items: center;
     text-transform: none !important;
+    transition: border 0.2s;
+}
+.sg-professional-page-container a:hover {
+    border-bottom: 1px solid #b85c0b;
 }
 
 .sg-professional-page-container a img {
@@ -172,6 +184,22 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb4407", endColorstr="#942e0e", GradientType=1);
 }
 
+.sg-body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    line-height: 1.7;
+    color: #232323;
+}
+
+.sg-subsection {
+    background: rgba(255, 249, 230, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 0 rgba(247,200,71,0.05);
+    padding: 1.5rem 1rem;
+}
+
 @media only print {
     #sg-header {
         display: none;
@@ -223,9 +251,14 @@
     height: 60px;
     border-radius: 50%;
     box-sizing: border-box;
+    box-shadow: 0 2px 12px 0 rgba(247,200,71,0.18);
     background-color: #DDD;
     border: 3px solid #f7c847;
     margin-right: 2%;
+    transition: transform 0.2s;
+}
+.sg-logo-img:hover {
+    transform: scale(1.07) rotate(-2deg);
 }
 
 @media only screen and (max-width: 359px) {
@@ -268,8 +301,13 @@
     font-weight: bolder;
 }
 
+.sg-about-content {
+    font-weight: 350;
+    font-size: large;
+}
+
 .sg-about-topic {
-    font-weight: bold;
+    font-weight: 650;
     font-variant: small-caps;
     font-size: medium;
     color: gray;
