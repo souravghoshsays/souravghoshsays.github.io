@@ -7,14 +7,14 @@
 
 ![GitHub Badge | Website Last Commit](https://img.shields.io/github/last-commit/souravghoshsays/souravghoshsays.github.io/master)
 
-[SOURAV GHOSH](https://www.linkedin.com/in/sourav92/) is the sole owner of the website at the URL, [https://souravghoshsays.github.io/](https://souravghoshsays.github.io/) (hereafter, referred to as WEBSITE). No portion of this WEBSITE may be reproduced or distributed without the express written consent of SOURAV GHOSH.
+[SOURAV GHOSH](https://www.linkedin.com/in/sourav92/) is the sole owner of the website at the URL, [https://souravghoshsays.github.io/](https://souravghoshsays.github.io/) (hereafter, referred to as WEBSITE). All content on this WEBSITE, including but not limited to design themes _"Neelambari by Sourav"_ and _"Arunika by Sourav"_, is original work created by SOURAV GHOSH and is protected as intellectual property. No portion of this WEBSITE may be reproduced or distributed without the express written consent of SOURAV GHOSH.
 
 
 ## Disclaimer
 
 All of the information on this WEBSITE - [https://souravghoshsays.github.io/](https://souravghoshsays.github.io/) - is published in good faith and for general information purpose only. SOURAV GHOSH does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this WEBSITE, is strictly at your own risk. SOURAV GHOSH will not be liable for any losses and/or damages in connection with the use of this WEBSITE.
 
-Content in this WEBSITE may contain references to proprietary material. Rights to trademarks, including but not limited to logos and brand names, are retained by their respective brand owners.
+Content on this WEBSITE may contain references to proprietary material. Rights to trademarks, including but not limited to logos and brand names, are retained by their respective brand owners.
 
 From this WEBSITE, you can visit other websites by following hyperlinks to such external sites. While effort is made to provide only quality links to useful and ethical websites, SOURAV GHOSH has no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before an opportunity to remove a link which may have gone "bad".
 
