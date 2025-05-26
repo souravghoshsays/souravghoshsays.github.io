@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="https://souravghoshsays.github.io/css/uikit.min.css" />
   <script src="https://souravghoshsays.github.io/js/uikit.min.js"></script>
   <script src="https://souravghoshsays.github.io/js/uikit-icons.min.js"></script>
+  <script src="https://souravghoshsays.github.io/js/sg-theme-switcher.js"></script>
   <link
     href="https://fonts.googleapis.com/css?family=Outfit|Red Hat Display|Noto Serif Bengali|Noto Serif Devanagari|Song Myung|Noto Serif Kannada|Dancing Script|Tangerine"
     rel="stylesheet">
@@ -321,6 +322,16 @@
         <li><a href="https://souravghoshsays.github.io/#awards" uk-scroll>Awards</a></li>
         <li><a href="https://souravghoshsays.github.io/index_legacy.html" uk-scroll>Legacy site</a></li>
         <li><a href="https://souravghoshsays.github.io/#contact" uk-scroll>Contact</a></li>
+        <li>
+          <div class="sg-theme-switcher" id="sg-theme-switcher">
+            <label for="sg-theme-select">Theme:</label>
+            <select id="sg-theme-select">
+              <option value="sg-neelambari" id="sg-theme-select-val-neelambari">Neelambari</option>
+              <option value="sg-arunika" id="sg-theme-select-val-arunika">Arunika</option>
+            </select>
+          </div>
+          <script>sgInitTheme();</script>
+        </li>
       </ul>
 
     </div>
@@ -364,7 +375,9 @@
     <span style="font-size: xx-small;">
       No portion of this website may be reproduced or distributed without the express written consent of the website
       owner.
-      Content in this website may contain references to proprietary material. Rights to trademarks, including but not
+      Content in this website may contain references to proprietary material.
+      The design themes "Neelambari" and "Arunika" are the intellectual property of website owner.
+      Rights to trademarks, including but not
       limited to logos and brand names, are retained by their respective brand owners.
       <br />
       <a href="https://souravghoshsays.github.io/COPYRIGHT.html" class="uk-button-text" target="_blank" rel="license">
