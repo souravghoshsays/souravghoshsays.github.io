@@ -22,9 +22,13 @@
   <link rel="stylesheet" href="css/uikit.min.css" />
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.min.js"></script>
+  <script src="js/sg-theme-switcher.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css?family=Outfit|Red Hat Display|Noto Serif Bengali|Noto Serif Devanagari|Song Myung|Noto Serif Kannada|Dancing Script|Tangerine"
+    href="https://fonts.googleapis.com/css?family=Noto Serif Bengali|Noto Serif Devanagari|Song Myung|Noto Serif Kannada|Dancing Script|Tangerine"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <!----------------- Adapted from legacy : BEGIN ----------------->
 
@@ -156,7 +160,7 @@
 
 </head>
 
-<body>
+<body class="sg-body">
   <div id="sg-logo-container-print" class="uk-navbar-left center">
     <a href="https://souravghoshsays.github.io/" rel="home" class="uk-flex uk-flex-wrap uk-link-heading uk-link-reset"
       style="display: flex; align-items: center;" uk-scroll>
@@ -310,6 +314,16 @@
         <li><a href="#awards" uk-scroll>Awards</a></li>
         <li><a href="index_legacy.html" uk-scroll>Legacy site</a></li>
         <li><a href="#contact" uk-scroll>Contact</a></li>
+        <li>
+          <div class="sg-theme-switcher" id="sg-theme-switcher">
+            <label for="sg-theme-select">Theme:</label>
+            <select id="sg-theme-select">
+              <option value="sg-neelambari" id="sg-theme-select-val-neelambari">Neelambari</option>
+              <option value="sg-arunika" id="sg-theme-select-val-arunika">Arunika</option>
+            </select>
+          </div>
+          <script>sgInitTheme();</script>
+        </li>
       </ul>
 
     </div>
@@ -409,8 +423,7 @@
         </div>
       </div>
 
-      <div class="uk-container"
-        style="font-family: 'Red Hat Display', Arial, sans-serif; font-size: large; text-align: justify; color: black;">
+      <div class="uk-container" style="text-align: justify;">
 
         <p class="uk-text-lead" style="text-align: center;">
           <span class="sg-name-i8n" style="font-family: 'Noto Serif Bengali', Arial, sans-serif;">
@@ -445,7 +458,7 @@
             </span>
           </div>
 
-          <div class="uk-width-3-4@m uk-width-1-1@s">
+          <div class="sg-about-content uk-width-3-4@m uk-width-1-1@s">
 
             <p>
               <span class="sg-about-topic">[Career Timeline]</span>
@@ -559,81 +572,82 @@
           </div>
         </div>
 
+        <div class="sg-subsection uk-margin-large-top">
+          <h3>Research Interests</h3>
 
-        <h3>Research Interests</h3>
-
-        <p class="uk-text-lead uk-text-background uk-text-center uk-align-center">
-          <span class="uk-grid-small uk-child-width-auto@s uk-text-center uk-align-center uk-margin-remove-top" uk-grid>
-            <span class="uk-badge uk-background-secondary">On-device AI ✨</span>
-            <span class="uk-badge uk-background-secondary">Machine Learning 🤖</span>
-            <span class="uk-badge uk-background-secondary">Natural Language Processing 💬</span>
-            <span class="uk-badge uk-background-secondary">Computer Vision 👁️</span>
-            <span class="uk-badge uk-background-secondary">Generative AI ✍️</span>
-          </span>
-        </p>
+          <p class="uk-text-lead uk-text-background uk-text-center uk-align-center">
+            <span class="uk-grid-small uk-child-width-auto@s uk-text-center uk-align-center uk-margin-remove-top" uk-grid>
+              <span class="uk-badge uk-background-secondary">On-device AI ✨</span>
+              <span class="uk-badge uk-background-secondary">Machine Learning 🤖</span>
+              <span class="uk-badge uk-background-secondary">Natural Language Processing 💬</span>
+              <span class="uk-badge uk-background-secondary">Computer Vision 👁️</span>
+              <span class="uk-badge uk-background-secondary">Generative AI ✍️</span>
+            </span>
+          </p>
 
 
-        <h3>Portfolio</h3>
+          <h3>Portfolio</h3>
 
-        <div class="uk-flex uk-flex-center uk-flex-wrap uk-flex-stretch sg-professional-page-container" uk-margin>
+          <div class="uk-flex uk-flex-center uk-flex-wrap uk-flex-stretch sg-professional-page-container" uk-margin>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://scholar.google.com/citations?hl=en&user=Wi1_F08AAAAJ"
-            style="font-family: 'Outfit', arial, sans-serif;"><img src="images/icons/Google-Scholar.svg" width="15px"
-              alt="Google Scholar" />
-            <span class="sg-professional-page-text" style="color: #4285F4;">G</span>
-            <span class="sg-professional-page-text" style="color: #DB4437;">o</span>
-            <span class="sg-professional-page-text" style="color: #F4B400;">o</span>
-            <span class="sg-professional-page-text" style="color: #4285F4;">g</span>
-            <span class="sg-professional-page-text" style="color: #0F9D58;">l</span>
-            <span class="sg-professional-page-text"
-              style="color: #DB4437; rotate: -25deg; margin-left: -0.5px; margin-right: -0.25px;">e</span>
-            &nbsp;&nbsp;
-            <span class="sg-professional-page-text" style="color: gray;">Scholar</span>
-          </a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://scholar.google.com/citations?hl=en&user=Wi1_F08AAAAJ"
+              style="font-family: 'Outfit', arial, sans-serif;"><img src="images/icons/Google-Scholar.svg" width="15px"
+                alt="Google Scholar" />
+              <span class="sg-professional-page-text" style="color: #4285F4;">G</span>
+              <span class="sg-professional-page-text" style="color: #DB4437;">o</span>
+              <span class="sg-professional-page-text" style="color: #F4B400;">o</span>
+              <span class="sg-professional-page-text" style="color: #4285F4;">g</span>
+              <span class="sg-professional-page-text" style="color: #0F9D58;">l</span>
+              <span class="sg-professional-page-text"
+                style="color: #DB4437; rotate: -25deg; margin-left: -0.5px; margin-right: -0.25px;">e</span>
+              &nbsp;&nbsp;
+              <span class="sg-professional-page-text" style="color: gray;">Scholar</span>
+            </a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://orcid.org/0000-0003-1866-1408"><img src="images/icons/ORCID.svg" width="60px"
-              alt="ORCID" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://orcid.org/0000-0003-1866-1408"><img src="images/icons/ORCID.svg" width="60px"
+                alt="ORCID" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://arxiv.org/a/ghosh_s_18"><img src="images/icons/arXiv.svg" width="40px" alt="arXiv" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://arxiv.org/a/ghosh_s_18"><img src="images/icons/arXiv.svg" width="40px" alt="arXiv" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://www.researchgate.net/profile/Sourav_Ghosh51"><img src="images/icons/ResearchGate.svg"
-              width="90px" alt="ResearchGate" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://www.researchgate.net/profile/Sourav_Ghosh51"><img src="images/icons/ResearchGate.svg"
+                width="90px" alt="ResearchGate" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://publons.com/researcher/AAA-4445-2021"><img src="images/icons/Web-of-Science.svg" width="140px"
-              alt="Web of Science" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://publons.com/researcher/AAA-4445-2021"><img src="images/icons/Web-of-Science.svg" width="140px"
+                alt="Web of Science" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://ieeexplore.ieee.org/author/37086798006" style="font-family: 'Outfit', arial, sans-serif;"><img
-              src="images/icons/IEEE-Xplore.svg" width="100px" alt="IEEE Xplore"
-              style="filter: invert(87%) sepia(13%) saturate(2361%) hue-rotate(156deg) brightness(103%) contrast(92%);" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://ieeexplore.ieee.org/author/37086798006" style="font-family: 'Outfit', arial, sans-serif;"><img
+                src="images/icons/IEEE-Xplore.svg" width="100px" alt="IEEE Xplore"
+                style="filter: invert(87%) sepia(13%) saturate(2361%) hue-rotate(156deg) brightness(103%) contrast(92%);" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            style="background-color: #8a1912;"
-            href="https://openreview.net/profile?id=~Sourav_Ghosh1"><img src="images/icons/Open-Review.png"
-              alt="OpenReview" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              style="background-color: #8a1912;"
+              href="https://openreview.net/profile?id=~Sourav_Ghosh1"><img src="images/icons/Open-Review.png"
+                alt="OpenReview" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank"
-            rel="external nofollow noopener noreferrer"
-            href="https://www.semanticscholar.org/author/Sourav-Ghosh/49870674"><img
-              src="images/icons/Semantic-Scholar.svg" width="140px" alt="Semantic Scholar" /></a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank"
+              rel="external nofollow noopener noreferrer"
+              href="https://www.semanticscholar.org/author/Sourav-Ghosh/49870674"><img
+                src="images/icons/Semantic-Scholar.svg" width="140px" alt="Semantic Scholar" /></a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://thesouravghosh.medium.com/"><img src="images/icons/Medium.svg" width="80px" alt="Medium" />
-            (Blog &amp; Fiction)</a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://thesouravghosh.medium.com/"><img src="images/icons/Medium.svg" width="80px" alt="Medium" />
+              (Blog &amp; Fiction)</a>
 
-          <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
-            href="https://cse.iitkgp.ac.in/~sourav.ghosh/" style="font-family: 'Outfit', arial, sans-serif;"><img
-              src="images/icons/IIT-Kharagpur.svg" width="15px" alt="Webpage at IITKGP" />
-            <span class="sg-professional-page-text" style="color: #914545;">CSE,</span>
-            &nbsp;&nbsp;
-            <span class="sg-professional-page-text" style="color: #db5903;">IIT Kharagpur</span>
-          </a>
+            <a class="uk-button uk-button-default uk-margin-auto" target="_blank" rel="me external noopener noreferrer"
+              href="https://cse.iitkgp.ac.in/~sourav.ghosh/" style="font-family: 'Outfit', arial, sans-serif;"><img
+                src="images/icons/IIT-Kharagpur.svg" width="15px" alt="Webpage at IITKGP" />
+              <span class="sg-professional-page-text" style="color: #914545;">CSE,</span>
+              &nbsp;&nbsp;
+              <span class="sg-professional-page-text" style="color: #db5903;">IIT Kharagpur</span>
+            </a>
 
+          </div>
         </div>
       </div>
     </div>
@@ -653,6 +667,13 @@
 
       <div class="uk-container">
         <ul class="uk-list uk-list-disc uk-list-striped sg-news-items">
+          <li>
+            <span class="sg-news-timeline">2025-May |</span>
+            Served as Champion and co-organized TechGlanz 2025 for Platform Intelligence Team.&nbsp;
+            <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
+              href="https://www.linkedin.com/posts/sourav92_techglanz2025-lifeatsrib-innovationatsrib-activity-7333622957874794496-SiiG">
+              [Details]</a>
+          </li>
           <li>
             <span class="sg-news-timeline">2025-May |</span>
             Paper accepted for publication in IETE Journal of Research (TIJR) &mdash; Outcome of a student research mentorship.
@@ -726,7 +747,7 @@
             <span class="sg-news-timeline">2023-Dec |</span>
             Participated as a judge at Smart India Hackathon 2023 - Grand Finale.&nbsp;
             <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
-              href="https://finale.sih.gov.in/event/NCS035#jury">
+              href="https://finale.sih.gov.in/2023/event/NCS035#jury">
               [Jury Panel]</a>
             <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
               href="https://www.linkedin.com/posts/sourav92_grandfinale-digitalindia-sih2023-activity-7146649856743227392-Ggii">
@@ -2321,7 +2342,7 @@
             </span><br />
             <span class="sg-invited-role-links">
               <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
-                href="https://finale.sih.gov.in/event/NCS035#jury">[Jury Panel for SIH 2023]</a>
+                href="https://finale.sih.gov.in/2023/event/NCS035#jury">[Jury Panel for SIH 2023]</a>
               <a class="uk-button uk-button-text" target="_blank" rel="external nofollow noopener noreferrer"
                 href="https://www.linkedin.com/posts/sourav92_grandfinale-digitalindia-sih2023-activity-7146649856743227392-Ggii">[Valedictory]</a>
             </span><br />
@@ -3204,9 +3225,12 @@
       Sourav Ghosh. All rights reserved.
     </span><br />
     <span style="font-size: xx-small;">
-      No portion of this website may be reproduced or distributed without the express written consent of the website
-      owner.
-      Content in this website may contain references to proprietary material. Rights to trademarks, including but not
+      All content on this website, including but not limited to design themes
+      <i>"Neelambari by Sourav"</i> and <i>"Arunika by Sourav"</i>,
+      is original work created by the website owner and is protected as intellectual property.
+      No portion of this website may be reproduced or distributed without the express written consent of the website owner.
+      Content on this website may contain references to proprietary material.
+      Rights to trademarks, including but not
       limited to logos and brand names, are retained by their respective brand owners.
       <br />
       <a href="COPYRIGHT.html" class="uk-button-text" target="_blank" rel="license">

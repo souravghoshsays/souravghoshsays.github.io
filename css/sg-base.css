@@ -1,30 +1,70 @@
+/* Base StyleSheet for https://souravghoshsays.github.io/ */
+
+/** Copyright (c) 2025 Sourav Ghosh
+  * All rights reserved.
+  *
+  * No redistribution or reuse without permission, whether in part or whole.
+  * This code is provided "as is" without any warranty.
+  */
+
+@import url('sg-theme-arunika.css');
+@import url('sg-theme-neelambari.css');
+
 .sg-name-i8n {
     margin-inline: 5%;
     white-space: nowrap;
 }
 
+.sg-theme-switcher {
+    background: var(--sg-colorval-theme-switcher-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 var(--sg-colorval-theme-switcher-box-shadow);
+    padding: 0.3em 0.7em;
+    font-family: 'Outfit', Arial, sans-serif;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 0.8em;
+}
+.sg-theme-switcher label {
+    font-weight: 600;
+    margin-right: 0.5em;
+}
+.sg-theme-switcher select {
+    border-radius: 5px;
+    border: 1px solid var(--sg-colorval-theme-switcher-select-border);
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    background: var(--sg-header-bg-base);
+    color: white;
+}
+
 .sg-publication-title,
 .sg-patent-title,
-.sg-invited-role-event {
+.sg-invited-role-event,
+.sg-education-institution-university-board {
     text-transform: none !important;
     font-size: x-large !important;
+    letter-spacing: 0.01em;
 }
 
 .sg-publication-authors,
 .sg-patent-inventors,
 .sg-invited-role-duty {
-    color: #8b8989;
+    color: var(--sg-colorval-item-credit);
 }
 
 .sg-publication-forum,
 .sg-patent-timeline,
-.sg-invited-role-organizer {
-    color: #be1919;
+.sg-invited-role-organizer,
+.sg-education-qualification {
+    color: var(--sg-colorval-item-meta);
     font-style: italic;
 }
 
 .sg-publication-highlight {
-    color: goldenrod;
+    color: var(--sg-colorval-item-highlight);
     font-weight: bold;
 }
 
@@ -40,28 +80,29 @@
     margin-right: 10px;
 }
 
-.sg-education-institution-university-board {
-    text-transform: none !important;
-    font-size: x-large !important;
+.sg-invited-role-links a {
+    background: var(--sg-colorconfig-item-invited-role-link-background);
+    border-radius: 6px;
+    padding: 0.25em 0.9em;
+    font-weight: 600;
 }
-
-.sg-education-qualification {
-    color: #be1919;
-    font-style: italic;
+.sg-invited-role-links a:hover{
+    background: var(--sg-colorconfig-item-invited-role-link-hover-background);
+    color: var(--sg-colorval-item-invited-role-link-hover) !important;
 }
 
 .sg-education-timeline {
-    color: #c45858;
+    color: var(--sg-colorval-education-timeline);
     font-style: italic;
 }
 
 .sg-education-institution-school-college {
-    color: #d6761d;
+    color: var(--sg-colorval-education-institution);
     font-size: smaller;
 }
 
 .sg-education-grade {
-    color: #8b8989;
+    color: var(--sg-colorval-education-grade);
     font-size: smaller;
 }
 
@@ -119,6 +160,10 @@
     display: flex;
     align-items: center;
     text-transform: none !important;
+    transition: border 0.2s;
+}
+.sg-professional-page-container a:hover {
+    border-bottom: 1px solid var(--sg-colorval-professional-page-container-link-hover-border-bottom);
 }
 
 .sg-professional-page-container a img {
@@ -127,11 +172,11 @@
 }
 
 .sg-hamburger {
-    color: white !important;
+    color: var(--sg-colorval-hamburger) !important;
 }
 
 .sg-hamburger:hover {
-    color: skyblue !important;
+    color: var(--sg-colorval-hamburger-hover) !important;
 }
 
 .sg-news-items li .uk-button-text,
@@ -146,7 +191,7 @@
 
 .sg-news-timeline,
 .sg-collaboration-timeline {
-    color: #8b8989;
+    color: var(--sg-colorval-item-timeline);
 }
 
 .sg-publication-links .uk-button-text,
@@ -157,7 +202,7 @@
 .sg-education-notes .uk-button-text,
 .sg-awards-card .uk-button-text,
 #sg-footer .uk-button-text {
-    color: rgb(7, 145, 209) !important;
+    color: var(--sg-colorval-item-link-text) !important;
 }
 
 .sg-professional-page-text {
@@ -165,11 +210,27 @@
 }
 
 #sg-header {
-    background: rgb(203, 68, 7);
-    background: -moz-linear-gradient(90deg, rgba(203, 68, 7, 1) 0%, rgba(209, 63, 38, 1) 30%, rgba(148, 46, 14, 1) 93%);
-    background: -webkit-linear-gradient(90deg, rgba(203, 68, 7, 1) 0%, rgba(209, 63, 38, 1) 30%, rgba(148, 46, 14, 1) 93%);
-    background: linear-gradient(90deg, rgba(203, 68, 7, 1) 0%, rgba(209, 63, 38, 1) 30%, rgba(148, 46, 14, 1) 93%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb4407", endColorstr="#942e0e", GradientType=1);
+    background: var(--sg-header-bg-base);
+    background: var(--sg-header-bg-moz);
+    background: var(--sg-header-bg-webkit);
+    background: var(--sg-header-bg-linear);
+    filter: var(--sg-header-bg-filter);
+}
+
+.sg-body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    line-height: 1.7;
+    color: var(--sg-colorval-body);
+}
+
+.sg-subsection {
+    background: var(--sg-colorval-subsection-background);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 0 var(--sg-colorval-subsection-box-shadow);
+    padding: 1.5rem 1rem;
 }
 
 @media only print {
@@ -223,9 +284,14 @@
     height: 60px;
     border-radius: 50%;
     box-sizing: border-box;
-    background-color: #DDD;
-    border: 3px solid #f7c847;
+    box-shadow: 0 2px 12px 0 var(--sg-colorval-logo-img-box-shadow);
+    background-color: var(--sg-colorval-logo-img-background);
+    border: 3px solid var(--sg-colorval-logo-img-border);
     margin-right: 2%;
+    transition: transform 0.2s;
+}
+.sg-logo-img:hover {
+    transform: scale(1.07) rotate(-2deg);
 }
 
 @media only screen and (max-width: 359px) {
@@ -252,14 +318,14 @@
 
 .sg-logo-title {
     font-family: 'Outfit', arial, sans-serif;
-    color: #ebe9e9;
-    filter: drop-shadow(1px 1px 1px #0f0f0f);
+    color: var(--sg-colorval-logo-title);
+    filter: drop-shadow(1px 1px 1px var(--sg-colorval-logo-title-filter));
     margin-bottom: 2px;
 }
 
 .sg-logo-subtitle {
     font-family: 'Outfit', arial, sans-serif;
-    color: #DDD;
+    color: var(--sg-colorval-logo-subtitle);
     margin: 50px auto;
 }
 
@@ -268,11 +334,16 @@
     font-weight: bolder;
 }
 
+.sg-about-content {
+    font-weight: 350;
+    font-size: large;
+}
+
 .sg-about-topic {
-    font-weight: bold;
+    font-weight: 650;
     font-variant: small-caps;
     font-size: medium;
-    color: gray;
+    color: var(--sg-colorval-par-title);
     margin-right: 20px;
 }
 
@@ -301,24 +372,38 @@
 
 #publications .sg-section-intro-banner h2,
 #publications .sg-section-intro-banner h2 span {
-    color: rgb(172, 101, 9) !important;
-    text-shadow: -2px -2px 10px white, 2px -2px 10px white, -2px 2px 10px white, 2px 2px 10px white !important;
+    color: var(--sg-colorval-intro-banner-publications) !important;
+    text-shadow:
+        -2px -2px 10px var(--sg-colorval-intro-banner-publications-text-shadow),
+        2px -2px 10px var(--sg-colorval-intro-banner-publications-text-shadow),
+        -2px 2px 10px var(--sg-colorval-intro-banner-publications-text-shadow),
+        2px 2px 10px var(--sg-colorval-intro-banner-publications-text-shadow)
+        !important;
 }
 
 #peer-reviews .sg-section-intro-banner h2 {
-    color: goldenrod !important;
-    text-shadow: -2px -2px 10px skyblue, 2px -2px 10px skyblue, -2px 2px 10px skyblue, 2px 2px 10px skyblue !important;
+    color: var(--sg-colorval-intro-banner-peer-reviews) !important;
+    text-shadow:
+        -2px -2px 10px var(--sg-colorval-intro-banner-peer-reviews-text-shadow),
+        2px -2px 10px var(--sg-colorval-intro-banner-peer-reviews-text-shadow),
+        -2px 2px 10px var(--sg-colorval-intro-banner-peer-reviews-text-shadow),
+        2px 2px 10px var(--sg-colorval-intro-banner-peer-reviews-text-shadow)
+        !important;
 }
 
 #industry-roles-and-responsibilities .sg-section-intro-banner h2,
 #industry-roles-and-responsibilities .sg-section-intro-banner h2 span {
-    color: brown;
-    text-shadow: -2px -2px 10px whitesmoke, 2px -2px 10px whitesmoke, -2px 2px 10px whitesmoke, 2px 2px 10px whitesmoke;
+    color: var(--sg-colorval-intro-banner-industry-roles);
+    text-shadow:
+        -2px -2px 10px var(--sg-colorval-intro-banner-industry-roles-text-shadow),
+        2px -2px 10px var(--sg-colorval-intro-banner-industry-roles-text-shadow),
+        -2px 2px 10px var(--sg-colorval-intro-banner-industry-roles-text-shadow),
+        2px 2px 10px var(--sg-colorval-intro-banner-industry-roles-text-shadow);
 }
 
 #news .sg-section-intro-banner h2 {
-    color: beige;
-    text-shadow: 2px 2px 50px rgb(128, 49, 4);
+    color: var(--sg-colorval-intro-banner-news);
+    text-shadow: 2px 2px 50px var(--sg-colorval-intro-banner-news-text-shadow);
 }
 
 .sg-awards-card .uk-card-body {

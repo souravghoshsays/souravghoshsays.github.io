@@ -1,0 +1,73 @@
+/* StyleSheet of theme "Arunika" for https://souravghoshsays.github.io/ */
+
+/** Copyright (c) 2025 Sourav Ghosh
+  * All rights reserved.
+  *
+  * No redistribution or reuse without permission, whether in part or whole.
+  * This code is provided "as is" without any warranty.
+  */
+
+#sg-theme-select-val-arunika {
+    background-color: rgb(203, 68, 7);
+    color: white;
+}
+
+.sg-theme-arunika {
+    /* Core color scheme: BEGIN */
+    --sg-header-bg-base: rgb(203, 68, 7);
+    --sg-header-bg-moz: -moz-linear-gradient(90deg, rgba(203, 68, 7, 1) 0%, rgba(209, 63, 38, 1) 30%, rgba(148, 46, 14, 1) 93%);
+    --sg-header-bg-webkit: -webkit-linear-gradient(90deg, rgba(203, 68, 7, 1) 0%, rgba(209, 63, 38, 1) 30%, rgba(148, 46, 14, 1) 93%);
+    --sg-header-bg-linear: linear-gradient(90deg, rgba(203, 68, 7, 1) 0%, rgba(209, 63, 38, 1) 30%, rgba(148, 46, 14, 1) 93%);
+    --sg-header-bg-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb4407", endColorstr="#942e0e", GradientType=1);
+    /* Core color scheme: END */
+
+    --sg-colorval-item-meta: #be1919;
+    --sg-colorval-item-highlight: goldenrod;
+    --sg-colorval-item-credit: #8b8989;
+    --sg-colorval-item-link-text: rgb(7, 145, 209);
+
+    --sg-colorval-item-invited-role-link-hover: #b85c0b;
+    --sg-colorconfig-item-invited-role-link-background: linear-gradient(90deg, #f7c847 0%, #f9d976 100%);
+    --sg-colorconfig-item-invited-role-link-hover-background: linear-gradient(90deg, #f9d976 0%, #f7c847 100%);
+
+    --sg-colorval-education-timeline: #8b8989; /* Previously #c45858; */
+    --sg-colorval-education-institution: #7b7979; /* Previously #d6761d; */
+    --sg-colorval-education-grade: #8b8989;
+
+    --sg-colorval-item-timeline: #8b8989;
+    --sg-colorval-body: #232323;
+
+    --sg-colorval-logo-img-box-shadow: rgba(247, 200, 71, 0.18);
+    --sg-colorval-logo-img-background: #DDD;
+    --sg-colorval-logo-img-border: #f7c847;
+    --sg-colorval-logo-title: #ebe9e9;
+    --sg-colorval-logo-title-filter: #0f0f0f;
+    --sg-colorval-logo-subtitle: #DDD;
+
+    --sg-colorval-hamburger: white;
+    --sg-colorval-hamburger-hover: skyblue;
+
+    --sg-colorval-par-title: gray;
+
+
+    --sg-colorval-intro-banner-publications: rgb(172, 101, 9);
+    --sg-colorval-intro-banner-peer-reviews: goldenrod;
+    --sg-colorval-intro-banner-industry-roles: brown;
+    --sg-colorval-intro-banner-news: beige;
+
+    --sg-colorval-intro-banner-publications-text-shadow: white;
+    --sg-colorval-intro-banner-peer-reviews-text-shadow: skyblue;
+    --sg-colorval-intro-banner-industry-roles-text-shadow: whitesmoke;
+    --sg-colorval-intro-banner-news-text-shadow: rgb(128, 49, 4);
+
+    --sg-colorval-subsection-background: rgba(255, 249, 230, 0.7);
+    --sg-colorval-subsection-box-shadow: rgba(247, 200, 71, 0.05);
+
+    --sg-colorval-professional-page-container-link-hover-border-bottom: #b85c0b;
+
+    --sg-colorval-theme-switcher-background: rgba(255, 255, 255, 0.05);
+    --sg-colorval-theme-switcher-box-shadow: rgba(0, 0, 0, 0.07);
+    --sg-colorval-theme-switcher-select: white;
+    --sg-colorval-theme-switcher-select-background: var(--sg-header-bg-base);
+    --sg-colorval-theme-switcher-select-border: rgba(255, 255, 255, 0.5);
+}
