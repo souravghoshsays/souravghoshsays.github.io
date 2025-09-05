@@ -25,6 +25,7 @@
     --sg-colorval-item-highlight: goldenrod;
     --sg-colorval-item-credit: #8b8989;
     --sg-colorval-item-link-text: rgb(7, 145, 209);
+    --sg-colorval-item-misc: #8b8989;
 
     --sg-colorval-item-invited-role-link-hover: #b85c0b;
     --sg-colorconfig-item-invited-role-link-background: linear-gradient(90deg, #f7c847 0%, #f9d976 100%);
