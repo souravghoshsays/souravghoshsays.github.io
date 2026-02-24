@@ -1,7 +1,7 @@
 # Copyright and Disclaimer
 
 
-## Copyright &copy; 2025 Sourav Ghosh
+## Copyright &copy; 2026 Sourav Ghosh
 
 **All rights reserved.**
 
